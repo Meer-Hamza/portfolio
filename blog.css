@@ -1,0 +1,63 @@
+#sidebar-1{
+    width: 100vw;
+    height: 120vh;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    font-size: 2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 50px;
+
+
+}
+h2 {
+    color: black;   
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 20px;
+}
+p {
+    color: black;
+    display: flex;
+    font-size: 2em;
+    margin: 50px;
+    padding: 30px;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.507);
+    text-align: center;
+}
+
+@media  (max-width: 1245px){
+    .container{
+        display: block;
+        margin: 0px;
+        padding: 0px;
+
+    }
+    h1{
+        font-size: 1.7em;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+    h2{
+        font-size: 1.5em;
+        text-align: center;
+        margin: 10px;
+        padding: 0;
+    }
+    p{
+        font-size: 1.5em;
+        text-align: center;
+        margin: 30px;
+        padding: 0;
+    }
+    #section-1 {
+        margin: 70px 50px 5px 55px;
+    }
+}

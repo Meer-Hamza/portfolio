@@ -1,0 +1,37 @@
+#services{
+    margin: 34px;
+    display: flex;
+}
+#services .box{ 
+    border: 2px solid brown;
+    padding: 34px;
+    margin: 2px 55px;
+    border-radius: 28px;
+    background: #f2f2f2;
+    margin-bottom: 20px;
+}
+
+#services .box img{ 
+   height: 160px;
+   margin: auto;
+   display: block;
+}
+
+#services .box p{
+    font-family: 'Bree Serif', serif;
+
+} 
+h1{
+    text-align: center;
+    font-size: 3rem;
+
+}
+@media  (max-width: 1245px){
+    #services{
+         display: block;
+    }
+
+    #services .box{
+        font-size: 1em;
+    }
+}
