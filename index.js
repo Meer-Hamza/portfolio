@@ -5,7 +5,7 @@ const path = require('path')
 const app = express()
 const port = 3000
 
-const DB = ''
+const DB = 'mongodb+srv://hamza:maliksab@cluster0.8646zrl.mongodb.net/hamza?retryWrites=true&w=majority'
 
 app.use(express.urlencoded({extended : true}));
 app.use(express.static('views'));
